@@ -1,0 +1,12 @@
+POST http://localhost:3000/send-email
+content-type: application/json
+
+{
+    "project_name": "Signature Global",
+    "name":"Dipali Gupta",
+    "subject": "Google Ads Lead",
+    "message": "I want to ask you for this property",
+    "email_address":"test2gmail.com",
+    "phone_no":"8595657585",
+    "loan_assistance": false
+}
